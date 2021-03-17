@@ -19,14 +19,7 @@ print("   =======      |      ||>>>>>>  |======|     ||      ")
 print(" made by ADITYA PAWAR ")
 print(" contact me on blahblahblah I am just joking ")
 
-inp = input()
-print("you would like to continue answer in yes(Y) or no(N)",inp)
-if (inp == "Y"){
-	print("ok ! you wll continue your attack by just typing python2 Cybot.py <url>")
-}
-elif (inp == "N"){
-	print("you wound not contine so kill your process")
-}
+
 import urllib2
 import sys
 import time
