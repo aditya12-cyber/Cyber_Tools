@@ -1,15 +1,15 @@
-# It is a testing program so be use it carefully. 
-# Any illegal use of this program we are not responsible.
-#     '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-#     '     |'''''| |====\  +++++++  [=======]  \    /    |'''''|     '                
-#     '     |_____| |     |    |         !       \  /     |_____|     '
-#     '     |     | |     |    |         !        \/      |     |     '
-#     '     |     | |====/  +++++++      !        ||      |     |     '
-#     ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,' 
+print 'It is a testing program so be use it carefully.' 
+print 'Any illegal use of this program we are not responsible.'
+print  "   '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''   "
+print  "   '     |'''''| |====\  +++++++  [=======]  \    /    |'''''|     '   "             
+print  "   '     |_____| |     |    |         !       \  /     |_____|     '   "
+print  "   '     |     | |     |    |         !        \/      |     |     '   "
+print  "   '     |     | |====/  +++++++      !        ||      |     |     '   "
+print  "   ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'   "
 
-# It is a DDos attacking tool so be carefull
-# this tool is a dos tool to put heavy loads on the server so if the server recieves too many request the server will stop .
-# use this tool for educational purpose only
+print 'It is a DDos attacking tool so be carefull'
+print 'This tool is a dos tool to put heavy loads on the server so if the server recieves too many request the server will stop .'
+print 'use this tool for educational purpose only'
 
 print("   ======= \         / ||>>>>>>  |======| [========]  ")
 print("  //         \     /   ||     >  |      |     ||      ")
@@ -19,13 +19,23 @@ print("   =======      |      ||>>>>>>  |======|     ||      ")
 print(" made by ADITYA PAWAR ")
 print(" contact me on blahblahblah I am just joking ")
 
+inp = input()
+print("you would like to continue answer in yes(Y) or no(N)",inp)
+if (inp == "Y"){
+	print("ok ! you wll continue your attack by just typing python2 Cybot.py <url>")
+}
+elif (inp == "N"){
+	print("you wound not contine so kill your process")
+}
 import urllib2
 import sys
+import time
+import socket
 import threading
 import random
 import re
 
-#global params
+#global parameters
 url=''
 host=''
 headers_useragents=[]
