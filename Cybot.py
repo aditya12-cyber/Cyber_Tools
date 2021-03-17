@@ -86,10 +86,10 @@ def usage():
   print("  ||           \ /     ||------  |      |     ||      ")
   print("  \\            |      ||     >  |      |     ||      ")
   print("   =======      |      ||>>>>>>  |======|     ||      ")
-	print '---------------------------------------------------'
-	print 'USAGE: python Cybot.py <url>'
-	print 'you can add "safe" after url, to autoshut after dos'
-	print '---------------------------------------------------'
+  print '---------------------------------------------------'
+  print 'USAGE: python Cybot.py <url>'
+  print 'you can add "safe" after url, to autoshut after dos'
+  print '---------------------------------------------------'
 
 	
 #http request
