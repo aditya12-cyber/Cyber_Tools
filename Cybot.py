@@ -11,18 +11,27 @@ print (Back.BLACK + Fore.WHITE + Style.BRIGHT +       "   '     |_____| |     | 
 print (Back.BLACK + Fore.CYAN + Style.BRIGHT +        "   '     |     | |     |    |         !        \/      |     |     '   "  )
 print (Back.BLACK + Fore.BLUE + Style.BRIGHT +        "   '     |     | |====/  +++++++      !        ||      |     |     '   "  )
 print (Back.BLACK + Fore.LIGHTRED_EX + Style.BRIGHT + "   ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'   "  )
-  
+print(" ")
 print (Fore.LIGHTYELLOW_EX + Back.LIGHTBLACK_EX +'It is a DDos attacking tool so be carefull')
+print(" ")
 print (Fore.LIGHTYELLOW_EX + Back.LIGHTBLACK_EX +'This tool is a dos tool to put heavy loads on the server so if the server recieves too many request the server will stop .')
+print(" ")
 print (Fore.LIGHTYELLOW_EX + Back.LIGHTBLACK_EX +'use this tool for educational purpose only')
+print(" ")
 
 print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.GREEN     +       "   ======= \         / ||>>>>>>  |======| [========]  ")
 print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.CYAN      +       "  //         \     /   ||     >  |      |     ||      ")
 print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "  ||           \ /     ||------  |      |     ||      ")
 print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLUE      +       "  \\            |      ||     >  |      |     ||      ")
 print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.MAGENTA   +       "   =======      |      ||>>>>>>  |======|     ||      ")
+print(" ")
+print(" ")
 print(Fore.BLACK + Back.LIGHTYELLOW_EX +" made by ADITYA PAWAR ")
+print(" ")
+print(" ")
 print(Fore.BLACK + Back.LIGHTYELLOW_EX +" contact me on blahblahblah I am just joking ")
+print(" ")
+
 
 
 import urllib2
@@ -89,15 +98,15 @@ def buildblock(size):
 	return(out_str)
 
 def usage():
-  print("   ======= \         / ||>>>>>>  |======| [========]  ")
-  print("  //         \     /   ||     >  |      |     ||      ")
-  print("  ||           \ /     ||------  |      |     ||      ")
-  print("  \\            |      ||     >  |      |     ||      ")
-  print("   =======      |      ||>>>>>>  |======|     ||      ")
-  print '---------------------------------------------------'
-  print 'USAGE: python Cybot.py <url>'
-  print 'you can add "safe" after url, to autoshut after dos'
-  print '---------------------------------------------------'
+print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "   ======= \         / ||>>>>>>  |======| [========]  ")
+print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "  //         \     /   ||     >  |      |     ||      ")
+print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "  ||           \ /     ||------  |      |     ||      ")
+print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "  \\            |      ||     >  |      |     ||      ")
+print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "   =======      |      ||>>>>>>  |======|     ||      ")
+  print (Fore.MAGENTA + Style.BRIGHT + '---------------------------------------------------')
+  print (Fore.MAGENTA + Style.BRIGHT + 'USAGE: python Cybot.py <url>')
+  print (Fore.MAGENTA + Style.BRIGHT + 'you can add "safe" after url, to autoshut after dos')
+  print (Fore.MAGENTA + Style.BRIGHT + '---------------------------------------------------')
 
 	
 #http request
@@ -153,7 +162,7 @@ class MonitorThread(threading.Thread):
 				print "%d Requests Sent" % (request_counter)
 				previous=request_counter
 		if flag==2:
-			print "\n-- CYBOT Attack Finished --"
+			print (Fore.BLACK + Back.YELLOW +"\n-- CYBOT Attack Finished --")
 
 #execute 
 if len(sys.argv) < 2:
@@ -164,7 +173,7 @@ else:
 		usage()
 		sys.exit()
 	else:
-		print "-- CYBOT Attack Started --"
+		print (Fore.BLACK + Back.YELLOW +"-- CYBOT Attack Started --")
 		if len(sys.argv)== 3:
 			if sys.argv[2]=="safe":
 				set_safe()
