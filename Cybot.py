@@ -1,23 +1,28 @@
-print 'It is a testing program so be use it carefully.' 
-print 'Any illegal use of this program we are not responsible.'
-print  "   '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''   "
-print  "   '     |'''''| |====\  +++++++  [=======]  \    /    |'''''|     '   "             
-print  "   '     |_____| |     |    |         !       \  /     |_____|     '   "
-print  "   '     |     | |     |    |         !        \/      |     |     '   "
-print  "   '     |     | |====/  +++++++      !        ||      |     |     '   "
-print  "   ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'   "
+import colorama
+from colorama import Fore,Back,Style,init
+init(autoreset=True)
 
-print 'It is a DDos attacking tool so be carefull'
-print 'This tool is a dos tool to put heavy loads on the server so if the server recieves too many request the server will stop .'
-print 'use this tool for educational purpose only'
 
-print("   ======= \         / ||>>>>>>  |======| [========]  ")
-print("  //         \     /   ||     >  |      |     ||      ")
-print("  ||           \ /     ||------  |      |     ||      ")
-print("  \\            |      ||     >  |      |     ||      ")
-print("   =======      |      ||>>>>>>  |======|     ||      ")
-print(" made by ADITYA PAWAR ")
-print(" contact me on blahblahblah I am just joking ")
+print (Fore.RED + 'It is a testing program so be use it carefully.') 
+print (Fore.RED + 'Any illegal use of this program we are not responsible.'                   )
+print (Back.BLACK + Fore.RED + Style.BRIGHT +         "   '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''   "  )
+print (Back.BLACK + Fore.MAGENTA + Style.BRIGHT +     "   '     |'''''| |====\  +++++++  [=======]  \    /    |'''''|     '   "  )            
+print (Back.BLACK + Fore.WHITE + Style.BRIGHT +       "   '     |_____| |     |    |         !       \  /     |_____|     '   "  )
+print (Back.BLACK + Fore.CYAN + Style.BRIGHT +        "   '     |     | |     |    |         !        \/      |     |     '   "  )
+print (Back.BLACK + Fore.BLUE + Style.BRIGHT +        "   '     |     | |====/  +++++++      !        ||      |     |     '   "  )
+print (Back.BLACK + Fore.LIGHTRED_EX + Style.BRIGHT + "   ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'   "  )
+  
+print (Fore.LIGHTYELLOW_EX + Back.LIGHTBLACK_EX +'It is a DDos attacking tool so be carefull')
+print (Fore.LIGHTYELLOW_EX + Back.LIGHTBLACK_EX +'This tool is a dos tool to put heavy loads on the server so if the server recieves too many request the server will stop .')
+print (Fore.LIGHTYELLOW_EX + Back.LIGHTBLACK_EX +'use this tool for educational purpose only')
+
+print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.GREEN     +       "   ======= \         / ||>>>>>>  |======| [========]  ")
+print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.CYAN      +       "  //         \     /   ||     >  |      |     ||      ")
+print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "  ||           \ /     ||------  |      |     ||      ")
+print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLUE      +       "  \\            |      ||     >  |      |     ||      ")
+print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.MAGENTA   +       "   =======      |      ||>>>>>>  |======|     ||      ")
+print(Fore.BLACK + Back.LIGHTYELLOW_EX +" made by ADITYA PAWAR ")
+print(Fore.BLACK + Back.LIGHTYELLOW_EX +" contact me on blahblahblah I am just joking ")
 
 
 import urllib2
