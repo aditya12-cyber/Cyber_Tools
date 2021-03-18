@@ -98,11 +98,11 @@ def buildblock(size):
 	return(out_str)
 
 def usage():
-print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "   ======= \         / ||>>>>>>  |======| [========]  ")
-print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "  //         \     /   ||     >  |      |     ||      ")
-print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "  ||           \ /     ||------  |      |     ||      ")
-print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "  \\            |      ||     >  |      |     ||      ")
-print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "   =======      |      ||>>>>>>  |======|     ||      ")
+  print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "   ======= \         / ||>>>>>>  |======| [========]  ")
+  print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "  //         \     /   ||     >  |      |     ||      ")
+  print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "  ||           \ /     ||------  |      |     ||      ")
+  print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "  \\            |      ||     >  |      |     ||      ")
+  print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "   =======      |      ||>>>>>>  |======|     ||      ")
   print (Fore.MAGENTA + Style.BRIGHT + '---------------------------------------------------')
   print (Fore.MAGENTA + Style.BRIGHT + 'USAGE: python Cybot.py <url>')
   print (Fore.MAGENTA + Style.BRIGHT + 'you can add "safe" after url, to autoshut after dos')
