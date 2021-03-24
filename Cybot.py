@@ -52,26 +52,26 @@ print(" ")
 
 
 
-print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "Tell me your name => ")
-name = input()
-time.sleep(2)
-print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + " so Hello , " + name)
-time.sleep(2)
-print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "you want to ddos attack on an website . tell me yes or no ")
-boolean = input()
-time.sleep(2)
+#print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "Tell me your name => ")
+#name = input()
+#time.sleep(2)
+#print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + " so Hello , " + name)
+#time.sleep(2)
+#print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "you want to ddos attack on an website . tell me yes or no ")
+#boolean = input()
+#time.sleep(2)
 
-if ( boolean == "yes" ):
-    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT +" Ok ! you can use this tool but for only education purpose only ")
-    time.sleep(1)
-    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT +"If you don't have any permisson then kill process")
-elif( boolean == "no"):
-    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT +"ok you an leave now")
-    time.sleep(1)
-    exit()
-else:
-    print(Fore.RED + Style.BRIGHT +"error !")
-    exit()
+#if ( boolean == "yes" ):
+#  print(Fore.LIGHTYELLOW_EX + Style.BRIGHT +" Ok ! you can use this tool but for only education purpose only ")
+ #   time.sleep(1)
+#    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT +"If you don't have any permisson then kill process")
+#elif( boolean == "no"):
+#    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT +"ok you an leave now")
+#    time.sleep(1)
+#    exit()
+#else:
+#    print(Fore.RED + Style.BRIGHT +"error !")
+#    exit()
 
 
 
