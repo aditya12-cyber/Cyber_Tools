@@ -1,36 +1,80 @@
 import colorama
+import time
 from colorama import Fore,Back,Style,init
 init(autoreset=True)
 
 
 print (Fore.RED + 'It is a testing program so be use it carefully.') 
-print (Fore.RED + 'Any illegal use of this program we are not responsible.'                   )
+time.sleep(2)
+print (Fore.RED + 'Any illegal use of this program we are not responsible.')
+time.sleep(5)
 print (Back.BLACK + Fore.RED + Style.BRIGHT +         "   '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''   "  )
-print (Back.BLACK + Fore.MAGENTA + Style.BRIGHT +     "   '     |'''''| |====\  +++++++  [=======]  \    /    |'''''|     '   "  )            
+time.sleep(1)
+print (Back.BLACK + Fore.MAGENTA + Style.BRIGHT +     "   '     |'''''| |====\  +++++++  [=======]  \    /    |'''''|     '   "  )
+time.sleep(1)
 print (Back.BLACK + Fore.WHITE + Style.BRIGHT +       "   '     |_____| |     |    |         !       \  /     |_____|     '   "  )
+time.sleep(1)
 print (Back.BLACK + Fore.CYAN + Style.BRIGHT +        "   '     |     | |     |    |         !        \/      |     |     '   "  )
+time.sleep(1)
 print (Back.BLACK + Fore.BLUE + Style.BRIGHT +        "   '     |     | |====/  +++++++      !        ||      |     |     '   "  )
+time.sleep(1)
 print (Back.BLACK + Fore.LIGHTRED_EX + Style.BRIGHT + "   ',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,'   "  )
 print(" ")
+time.sleep(4)
 print (Fore.LIGHTYELLOW_EX + Back.LIGHTBLACK_EX +'It is a DDos attacking tool so be carefull')
+time.sleep(3)
 print(" ")
 print (Fore.LIGHTYELLOW_EX + Back.LIGHTBLACK_EX +'This tool is a dos tool to put heavy loads on the server so if the server recieves too many request the server will stop .')
+time.sleep(3)
 print(" ")
 print (Fore.LIGHTYELLOW_EX + Back.LIGHTBLACK_EX +'use this tool for educational purpose only')
+time.sleep(6)
 print(" ")
 
 print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.GREEN     +       "   ======= \         / ||>>>>>>  |======| [========]  ")
+time.sleep(1)
 print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.CYAN      +       "  //         \     /   ||     >  |      |     ||      ")
+time.sleep(1)
 print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLACK     +       "  ||           \ /     ||------  |      |     ||      ")
+time.sleep(1)
 print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.BLUE      +       "  \\            |      ||     >  |      |     ||      ")
+time.sleep(1)
 print(Style.BRIGHT + Back.LIGHTWHITE_EX + Fore.MAGENTA   +       "   =======      |      ||>>>>>>  |======|     ||      ")
 print(" ")
 print(" ")
+time.sleep(3)
 print(Fore.BLACK + Back.LIGHTYELLOW_EX +" made by ADITYA PAWAR ")
 print(" ")
 print(" ")
+time.sleep(2)
 print(Fore.BLACK + Back.LIGHTYELLOW_EX +" contact me on blahblahblah I am just joking ")
 print(" ")
+
+
+
+print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "Tell me your name => ")
+name = input()
+time.sleep(2)
+print(Fore.LIGHTYELLOW_EX + Style.BRIGHT +  f" so hello , {name}")
+time.sleep(2)
+print(Fore.LIGHTYELLOW_EX + Style.BRIGHT + "you want to ddos attack on an website . tell me yes or no ")
+boolean = input()
+time.sleep(2)
+
+if ( boolean == "yes" ):
+    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT +" Ok ! you can use this tool but for only education purpose only ")
+    time.sleep(1)
+    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT +"If you don't have any permisson then kill process")
+elif( boolean == "no"):
+    print(Fore.LIGHTYELLOW_EX + Style.BRIGHT +"ok you an leave now")
+    time.sleep(1)
+    exit()
+else:
+    print(Fore.RED + Style.BRIGHT +"error !")
+    exit()
+
+
+
 
 
 
