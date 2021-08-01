@@ -12,5 +12,10 @@
 
 #### If you want to make changes with that tool you can .
 
-#### some of the libraries used in this tool are 📋
+#### some of the libraries used in this tool are :-
+
+<li>Phonenumbers</li>
+<li>Tkinter</li>
+
+
 
