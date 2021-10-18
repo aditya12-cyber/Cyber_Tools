@@ -21,10 +21,12 @@
 ### For Installing it in your linux system
 #### Open The Terminal and Run That command 
 
-<code>sudo apt install python,python2,python3</code><br>
-<code>sudo apt install git</code><br>
-<code>git clone https://github.com/aditya12-cyber/Cyber_Tools/Phone_num_info/</code><br>
+#### If you are Using a Kali linux operating system or other linux distribution then git and python is already installed in it . If it it not installed in you operating system then make sure it had been installed.
+
+<code>git clone https://github.com/aditya12-cyber/Cyber_Tools/</code><br>
 <code>cd</code><br>
+<code>ls</code><br>
+<code>cd Cyber_Tools</code><br>
 <code>ls</code><br>
 <code>cd Phone_num_info</code><br>
 <code>ls</code><br>
