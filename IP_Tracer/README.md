@@ -55,6 +55,8 @@
 <code>git clone https://github.com/aditya12-cyber/Cyber_Tools/</code><br>
 <code>cd</code><br>
 <code>ls</code><br>
+<code>cd Cyber_Tools</code><br>
+<code>ls</code><br>
 <code>cd IP_Tracer</code><br>
 <code>ls</code><br>
 <code>python3 IP_Tracer.py</code><br>
