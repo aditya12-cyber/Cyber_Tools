@@ -2,7 +2,7 @@
 
 <div align = "center">
 
-![](pib.PNG)
+![](Phoneinfobot.png)
 
 </div>
 
@@ -13,10 +13,19 @@
 #### If you want to make changes with that tool you can .
 
 #### some of the libraries used in this tool are :-
-
+<strong>
 <li>Phonenumbers</li>
 <li>Tkinter</li>
 <li>os</li>
+</strong>
+  
+<h2><center>Phone Info Bot</center></h2>
+
+<div align = "center">
+
+![](pib.PNG)
+
+</div>
 
 ### For Installing it in your linux system
 #### Open The Terminal and Run That command 
