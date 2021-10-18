@@ -8,7 +8,7 @@
 
 ## This tool is written in Python Language .
 
-### As the Name of the Tool Says that this tool is used to find information about someones ip \n ip means internet protocol 
+### As the Name of the Tool Says that this tool is used to find information about someones Ip , Ip means internet protocol 
 ### The Following things you can find about an ip address
 
 <strong>
@@ -50,10 +50,9 @@
 
 ### For Installing it in your debian or Linux System
 #### Open The Terminal and Run That command 
+#### If you are Using a Kali linux operating system or other linux distribution then git and python is already installed in it . If it it not installed in you roperating system then make sure it had been installed
 
-<code>sudo apt install python,python2,python3</code><br>
-<code>sudo apt install git</code><br>
-<code>git clone https://github.com/aditya12-cyber/Cyber_Tools/IP_Tracer/</code><br>
+<code>git clone https://github.com/aditya12-cyber/Cyber_Tools/</code><br>
 <code>cd</code><br>
 <code>ls</code><br>
 <code>cd IP_Tracer</code><br>
