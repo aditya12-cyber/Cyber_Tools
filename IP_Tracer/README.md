@@ -50,7 +50,9 @@
 
 ### For Installing it in your debian or Linux System
 #### Open The Terminal and Run That command 
-#### If you are Using a Kali linux operating system or other linux distribution then git and python is already installed in it . If it it not installed in you roperating system then make sure it had been installed
+
+
+#### If you are Using a Kali linux operating system or other linux distribution then git and python is already installed in it . If it it not installed in you operating system then make sure it had been installed.
 
 <code>git clone https://github.com/aditya12-cyber/Cyber_Tools/</code><br>
 <code>cd</code><br>
