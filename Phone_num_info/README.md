@@ -24,14 +24,11 @@
 <code>sudo apt install python,python2,python3</code><br>
 <code>sudo apt install git</code><br>
 <code>git clone https://github.com/aditya12-cyber/Cyber_Tools/Phone_num_info/</code><br>
-<code>pip3 install tkinter</code><br>
-<code>pip3 install phonenumbers</code><br>
-<code>pip3 install os</code><br>
 <code>cd</code><br>
 <code>ls</code><br>
 <code>cd Phone_num_info</code><br>
 <code>ls</code><br>
-<code>python Phone_Info_Bot.py</code><br>
+<code>python3 Phone_Info_Bot.py</code><br>
 
 
 ### IF YOU LIKE 👍 That tool you can follow me on Github 
